@@ -1,6 +1,8 @@
 * {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* header-makeup */
@@ -9,16 +11,17 @@ header {
     background-image: url(/images/banner/banner1.png);
     width: 1600px;
     height: 808px;
+    margin: auto;
 }
 
 .heading1 {
-    color: var#151414;
+    color: #151414;
     font-size: 65px;
     font-weight: 700;
 }
 
 .paragraph-txt {
-    color: var(--dark-02, #444343);
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
 }
@@ -34,13 +37,104 @@ header {
     border: none;
     padding: 5px;
 }
-.head-text{
+
+.head-text {
     padding: 216px 230px 186px 885px;
     text-align: right;
 }
 
 /* main-makeup */
 
-main{
+main {
     background: #FFF;
+}
+
+/* failure section */
+.failure-section {
+    margin-top: 140px;
+    display: flex;
+    padding: 0px 328px 0px 218px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.failure-img {
+    width: 451px;
+    flex-shrink: 0;
+}
+
+.failure-txt-contain {
+    padding-left: 135px;
+    flex-direction: column;
+}
+
+.failure-head {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#failure-p {
+    max-width: 416px;
+}
+
+div ul {
+    margin-bottom: 12px;
+    margin-top: 16px;
+}
+
+div ul li {
+    margin-bottom: 8px;
+}
+
+/* plan-section */
+.plans-head {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.plans {
+    margin-top: 150px;
+
+}
+
+.all-plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 135px;
+
+}
+
+.plan-title {
+    color: #151414;
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-des {
+    color: #737272;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.plan {
+    align-items: center;
+}
+
+.banner-gradiant {
+    background-image: url(/images/watch.png);
+    margin: auto;
+    width: 1140px;
+    height: 300px;
+    flex-shrink: 0;
+
 }
