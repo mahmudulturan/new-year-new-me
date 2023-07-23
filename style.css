@@ -9,8 +9,8 @@
 
 header {
     background-image: url(../new-year-new-me/images/banner/banner1.png);
-    width: 1600px;
-    height: 808px;
+    background-size: cover;
+    background-position: center;
     margin: auto;
 }
 
@@ -40,7 +40,12 @@ header {
 }
 
 .head-text {
-    padding: 216px 230px 186px 885px;
+    width: 1600px;
+    height: 808px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
     text-align: right;
 }
 
