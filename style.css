@@ -8,7 +8,7 @@
 /* header-makeup */
 
 header {
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(../new-year-new-me/images/banner/banner1.png);
     width: 1600px;
     height: 808px;
     margin: auto;
@@ -35,7 +35,8 @@ header {
     border-radius: 5px;
     background: #F15B22;
     border: none;
-    padding: 5px;
+    padding: 25px;
+    margin-top: 50px;
 }
 
 .head-text {
@@ -51,7 +52,8 @@ main {
 
 /* failure section */
 .failure-section {
-    margin-top: 140px;
+    max-width: 1400px;
+    margin: 140px auto 140px;
     display: flex;
     padding: 0px 328px 0px 218px;
     align-items: center;
@@ -114,14 +116,12 @@ div ul li {
 
 .plan-title {
     color: #151414;
-    /* text-align: center; */
     font-size: 30px;
     font-weight: 700;
 }
 
 .plan-des {
     color: #737272;
-    /* text-align: center; */
     font-size: 25px;
     font-weight: 500;
 }
@@ -131,10 +131,112 @@ div ul li {
 }
 
 .banner-gradiant {
-    background-image: url(/images/watch.png);
-    margin: auto;
-    width: 1140px;
-    height: 300px;
-    flex-shrink: 0;
+    background-image: linear-gradient(to right, rgba(252, 15, 15, 0.5), rgba(0, 0, 0, 0)), url('./images/watch.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 1400px;
+    padding: 59px 0px 59px 64px;
 
+}
+
+.gradiant-head {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.btn-g {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    padding: 20px 35px;
+}
+
+.content-g {
+    gap: 24px;
+
+}
+
+/* footer section styles */
+
+footer {
+    background-color: #151414;
+}
+
+.footer-container {
+    max-width: 1400px;
+    margin: 120px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 0;
+}
+
+.footer-text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subscribe-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.footer-head {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-detail {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.contact {
+    margin-bottom: 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.icons {
+    max-width: 175px;
+    display: flex;
+
+}
+
+.subscribe-txt {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+
+.email-txt{
+    color: black;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 20px 158px 21px 20px;
+}
+
+.subscribe-btn {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px 36px;
+    max-width: 170px;
 }
